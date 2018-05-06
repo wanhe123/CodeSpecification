@@ -5,7 +5,7 @@
 - 使用全称，不适用缩写
 
 ##### 2> 类的命名
-- 大驼峰式命名：每个单词的首字母都采用大写字母
+- 大驼峰式命名：每个单词的首字母都采用大写字母  
 　　　例子：MFHomePageViewController
 - 后缀要求  
 　ViewController: 使用ViewController做后缀  
@@ -20,7 +20,7 @@
 
 ##### 4> property变量
 - 小驼峰式命名    
-　　　例子：///注释
+　　　例子：///注释  
 　　　　　　@property (nonatomic, copy) NSString *userName;
 - 禁止使用synthesize关键词
 
@@ -64,7 +64,7 @@
 　良好的代码把含义表达清楚 在必要的地方添加注释  
 　注释需要与代码同步更新  
 　如果做不到命名尽量的见名知意的话，就可以适当的添加一些注释或者mark  
-　##### 1> 属性注释  
+##### 1> 属性注释  
 　　例子：
 　　　　/// 学生
 　　　　@property (nonatomic, strong) Student *student;
@@ -86,7 +86,7 @@
 
 #####　1> 指针 "" 位置  
 　　定义一个对象时，指针 "" 靠近变量  
-　　　例子: NSString *userName;
+　　　例子: NSString *userName;  
 #####　2> 方法的声明和定义  
 　　在 - 、+ 和 返回值 之间留一个空格，方法名和第一个参数之间不留空格
 #####  3> 代码缩进
