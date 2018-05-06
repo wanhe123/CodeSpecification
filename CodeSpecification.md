@@ -19,7 +19,7 @@
 - 私有变量放在 .m 文件中声明
 
 ##### 4> property变量
-- 小驼峰式命名  
+- 小驼峰式命名    
 　　　例子：///注释
 　　　　　　@property (nonatomic, copy) NSString *userName;
 - 禁止使用synthesize关键词
@@ -56,15 +56,15 @@
 　　-(void)tableView:(UITableView)tableView didSelectRowAtIndexPath:(NSIndexPath)indexPath;
 
 ### 2、私有方法及变量声明
-　##### 1> 声明位置
+　##### 1> 声明位置  
 　　在.m文件中最上方，定义空的category进行声明
 
-### 3、关于注释
+### 3、关于注释  
 　最好的代码是不需要注释的 尽量通过合理的命名  
 　良好的代码把含义表达清楚 在必要的地方添加注释  
 　注释需要与代码同步更新  
 　如果做不到命名尽量的见名知意的话，就可以适当的添加一些注释或者mark  
-　##### 1> 属性注释
+　##### 1> 属性注释  
 　　例子：
 　　　　/// 学生
 　　　　@property (nonatomic, strong) Student *student;
