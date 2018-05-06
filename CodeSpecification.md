@@ -106,8 +106,8 @@ CGFloatlineWidth = frame.size.width;
   if (self) {
     // ...
   }
-  ```
   return self;
 }
+```
 - 任何需要写大括号的部分，不得省略
       
